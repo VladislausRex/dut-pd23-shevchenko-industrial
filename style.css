@@ -1,0 +1,34 @@
+body {
+    color: #fff;
+    background-color: #272F45;
+    width: 70%;
+    padding: 10%;
+    padding-top: 0%;
+}
+ul :nth-of-type(15) {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+.main {
+}
+
+.line {
+    display: flex;
+}
+
+.btn {
+    border: 1px solid #EEC9A2;
+    padding: 5px;
+}
+
+.container{
+    padding: 1%;
+}
