@@ -1,89 +1,169 @@
 body {
     color: #fff;
     background-color: #272F45;
-    width: 70%;
-    padding: 5%;
-    padding-top: 0%;
+    margin: 5%;
+    padding-top: 0;
+    font-family:LeagueSpartan-Bold;
+    width: 100%;
 }
-ul :nth-of-type(15) {
-    list-style-type: none;
+ul :nth-of-type(1) {
+    list-style-type: disc;
 }
-
 li {
     display: inline;
+    font-size: 24px;
 }
 a {
     text-decoration: none;
     color: azure;
 }
-
-h1 {
-    font-size: 80pt;
+p {
+    font-family: HKGrotesk-Light;
 }
-h2 {
-    font-size: 48pt;
+section {
+    padding: 1%;
 }
-h3 {
-    font-size: 36pt;
+img {
+    width: auto;
 }
 
 
 .main {
+    width: 80%;
+    margin: 0 auto;
 }
-
 .line {
     display: flex;
-    width: 70%;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 88%;
 }
-
 .btn {
-    border: 1px solid #EEC9A2;
-    padding: 5px;
+    border: 3px solid #EEC9A2;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
-
-.container{
-    padding: 1%;
+.btn.second {
+    padding: 15px 30px 10px 30px;
 }
-
-.line .btn {
-    font-size: 18pt;
+.btn.third {
+    padding: 15px 15px 10px 15px;
 }
-
+.btngina {
+    font-family: HKGrotesk-Light;
+    font-size: 24px;
+    border: 3px solid #EEC9A2;
+    padding: 15px 20px 15px 20px;
+}
 .pos {
     position: absolute;
+    width: 530px;
 }
-
-.first {
-
+.line.first p{
+    padding-left: 10%;
+    font-size: 24px;
+    margin-bottom: 45%;
+}
+.line.first a {
+    margin: 10%;
 }
 .line.second p {
-    font-size: 24pt;
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 70px;
 }
-.line.third p{
-    font-size: 16pt;
+.line.third p {
+    font-size: 16px;
+    margin-bottom: -20px;
 }
-
+.gina h1 {
+    font-size: 80px;
+    padding-left: 10%;
+    padding-top: 0;
+    margin-bottom: -2%;
+}
+.line.second h2 {
+    font-size: 48px;
+    margin-bottom: -10px;
+}
+.line.third h3 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
 .gina {
-
+    width: auto;
 }
 .beoplay {
-    padding-right: 0.5%;
     text-align: right;
 }
-
 .leica {
-    padding-left: 0.5%;
     text-align: left;
 }
-
-.molekule {
-
+.leica>.pos {
+    margin-left: 2.2%;
+}
+.beoplay>.pos {
+    margin-right: 2.2%;
+}
+.p9>.pos {
+    padding-top: 14%;
+    width: 360px;
+    text-align: center;
+}
+.container>.pos {
+    text-align: center;
+    padding-top: 2.8%;
+    width: 360px;
+}
+.sub-form input {
+    border: 1px solid lightgray;
+    background-color: transparent;
+    color: #fff;
+    display: list-item;
+    text-align: center;
+    font-size: 18px;
+}
+.subscr {
+    font-family: HKGrotesk-Light;
+    color: #63757E;
+    text-align: center;
+}
+.subscr h3 {
+    font-size: 36px;
+}
+.subscr p {
+    font-size: 18px;
+}
+footer {
+    font-family: HKGrotesk-Light;
+    text-align: center;
+    color: #63757E;
+}
+footer a {
+    color: #63757E;
 }
 
-.p9 {
-
+@font-face {
+    font-family: LeagueSpartan-Bold;
+    src: local("LeagueSpartan-Bold"),
+    url(font/lsb.otf);
 }
-
-.dr-ii {
-
+@font-face {
+    font-family: HKGrotesk-Light;
+    src: local("HKGrotesk-Light"),
+    url(font/hkgl.otf);
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #63757E;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #63757E;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #63757E;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #63757E;
 }
