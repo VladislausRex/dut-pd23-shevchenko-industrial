@@ -1,7 +1,7 @@
 body {
     color: #fff;
     background-color: #272F45;
-    margin: 5%;
+    margin: 0;
     padding-top: 0;
     font-family:LeagueSpartan-Bold;
     width: 100%;
@@ -21,10 +21,20 @@ p {
     font-family: HKGrotesk-Light;
 }
 section {
-    padding: 1%;
 }
 img {
     width: auto;
+}
+header {
+    margin-left: 10%;
+}
+footer {
+    font-family: HKGrotesk-Light;
+    text-align: center;
+    color: #63757E;
+}
+footer a {
+    color: #63757E;
 }
 
 
@@ -34,10 +44,9 @@ img {
 }
 .line {
     display: flex;
-    margin-top: 10px;
+    margin-top: 1%;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 88%;
 }
 .btn {
     border: 3px solid #EEC9A2;
@@ -108,13 +117,13 @@ img {
     margin-right: 2.2%;
 }
 .p9>.pos {
-    padding-top: 14%;
+    padding-top: 10%;
     width: 360px;
     text-align: center;
 }
 .container>.pos {
     text-align: center;
-    padding-top: 2.8%;
+    padding-top: 3%;
     width: 360px;
 }
 .sub-form input {
@@ -124,6 +133,7 @@ img {
     display: list-item;
     text-align: center;
     font-size: 18px;
+    width: 25%;
 }
 .subscr {
     font-family: HKGrotesk-Light;
@@ -136,14 +146,7 @@ img {
 .subscr p {
     font-size: 18px;
 }
-footer {
-    font-family: HKGrotesk-Light;
-    text-align: center;
-    color: #63757E;
-}
-footer a {
-    color: #63757E;
-}
+
 
 @font-face {
     font-family: LeagueSpartan-Bold;
