@@ -1,0 +1,166 @@
+body {
+    color: #fff;
+    background-color: #272F45;
+    margin: 0;
+    font-family: LeagueSpartan-Bold;
+}
+ul :nth-of-type(1) {
+    list-style-type: disc;
+}
+li {
+    display: inline;
+    font-size: 24pt;
+}
+a {
+    text-decoration: none;
+    color: azure;
+}
+p {
+    font-family: HKGrotesk-Light;
+}
+header,
+.main{
+}
+footer {
+    font-family: HKGrotesk-Light;
+    text-align: center;
+    color: #63757E;
+}
+footer a {
+    color: #63757E;
+}
+h1 {
+    font-size: 80px;
+}
+h2{
+    font-size: 48px;}
+h3 {
+    font-size: 36px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.gina {
+    background-image: url("img/Gina.png");
+    width: 1160px;
+    height: 690px;
+}
+.gina>.text {
+    text-align: left;
+    padding-left: 100px;
+}
+.gina p {
+    font-size: 24px;
+}
+.beoplay {
+    background-image: url("img/Beoplay A1.png");
+    width: 560px;
+    height: 520px;
+}
+.beoplay>.text {
+    text-align: right;
+    padding-right: 40px;
+}
+.leica {
+    background-image: url("img/Leica MP.png");
+    width: 560px;
+    height: 520px;
+    margin-left: 40px;
+}
+.leica>.text{
+    padding-left: 40px;
+}
+.beoplay p,
+.leica p {
+    font-size: 18px;
+}
+.molekule{
+    background-image: url("img/Molekule.png");
+    width: 360px;
+    height: 440px;
+    margin-right: 40px;
+}
+.p9{
+    background-image: url("img/P9 Signature.png");
+    width: 360px;
+    height: 440px;
+}
+.p9>.text{
+    padding-top: 14%;
+    text-align: center;
+}
+.dr-ii{
+    background-image: url("img/DR-II.png");
+    width: 360px;
+    height: 440px;
+    margin-left: 40px;
+}
+.dr-ii>.text,
+.molekule>.text{
+    padding-top: 3%;
+    text-align: center;
+}
+.molekule p,
+.p9 p,
+.dr-ii p {
+    font-size: 16px;
+}
+.subscribe {
+    font-family: HKGrotesk-Light;
+    color: #63757E;
+    text-align: center;
+}
+.subscribe>h3 {
+    font-size: 36px;
+}
+.subscribe>p {
+    font-size: 18px;
+}
+.btn {
+    border: 3px solid #EEC9A2;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.gina .btn {
+    font-family: HKGrotesk-Light;
+    font-size: 24px;
+    border: 3px solid #EEC9A2;
+    padding: 15px 20px 15px 20px;
+}
+.beoplay .btn,
+.leica .btn {
+    padding: 15px 30px 10px 30px;
+}
+.molekule .btn,
+.p9 .btn,
+.dr-ii .btn {
+    padding: 15px 15px 10px 15px;
+}
+
+
+@font-face {
+    font-family: LeagueSpartan-Bold;
+    src: local("LeagueSpartan-Bold"),
+    url(font/lsb.otf);
+}
+@font-face {
+    font-family: HKGrotesk-Light;
+    src: local("HKGrotesk-Light"),
+    url(font/hkgl.otf);
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #63757E;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #63757E;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #63757E;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #63757E;
+}
