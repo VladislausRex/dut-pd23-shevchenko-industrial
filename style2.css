@@ -17,6 +17,7 @@ a {
 }
 p {
     font-family: HKGrotesk-Light;
+    letter-spacing: 0.5px;
 }
 header,
 .main{
@@ -31,6 +32,7 @@ footer a {
 }
 h1 {
     font-size: 80px;
+    margin-bottom: -15px;
 }
 h2{
     font-size: 48px;}
@@ -50,11 +52,14 @@ h3 {
 }
 .gina>.text {
     text-align: left;
-    padding-left: 100px;
+    padding-left: 60px;
+    padding-top: 40px;
 }
 .gina p {
-    font-size: 24px;
+    font-size: 24pt;
+    margin-bottom: 145px;
 }
+
 .beoplay {
     background-image: url("img/Beoplay A1.png");
     width: 560px;
@@ -75,8 +80,10 @@ h3 {
 }
 .beoplay p,
 .leica p {
-    font-size: 18px;
+    margin: -25px 0 85px;
+    font-size: 18pt;
 }
+
 .molekule{
     background-image: url("img/Molekule.png");
     width: 360px;
@@ -89,8 +96,11 @@ h3 {
     height: 440px;
 }
 .p9>.text{
-    padding-top: 14%;
+    padding-top: 90px;
     text-align: center;
+}
+.p9 p {
+    margin: 85px 0 80px 0;
 }
 .dr-ii{
     background-image: url("img/DR-II.png");
@@ -100,13 +110,17 @@ h3 {
 }
 .dr-ii>.text,
 .molekule>.text{
-    padding-top: 3%;
+    padding-top: 15%;
     text-align: center;
 }
 .molekule p,
 .p9 p,
 .dr-ii p {
     font-size: 16px;
+}
+.molekule h3,
+.dr-ii h3 {
+    margin: 0 0 30px 0;
 }
 .subscribe {
     font-family: HKGrotesk-Light;
@@ -133,12 +147,12 @@ h3 {
 }
 .beoplay .btn,
 .leica .btn {
-    padding: 15px 30px 10px 30px;
+    padding: 15px 35px 10px 35px;
 }
 .molekule .btn,
 .p9 .btn,
 .dr-ii .btn {
-    padding: 15px 15px 10px 15px;
+    padding: 10px 10px 5px 10px;
 }
 
 
