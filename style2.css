@@ -4,8 +4,9 @@ body {
     margin: 0;
     font-family: LeagueSpartan-Bold;
 }
-ul :nth-of-type(1) {
-    list-style-type: disc;
+ul{
+    list-style-type: disc;/*dont work*/
+    display: inline-table;
 }
 li {
     display: inline;
@@ -122,10 +123,12 @@ h3 {
 .dr-ii h3 {
     margin: 0 0 30px 0;
 }
+
 .subscribe {
     font-family: HKGrotesk-Light;
     color: #63757E;
     text-align: center;
+    margin-top: 160px;
 }
 .subscribe>h3 {
     font-size: 36px;
@@ -133,6 +136,7 @@ h3 {
 .subscribe>p {
     font-size: 18px;
 }
+
 .btn {
     border: 3px solid #EEC9A2;
     font-size: 18px;
@@ -155,6 +159,29 @@ h3 {
     padding: 10px 10px 5px 10px;
 }
 
+table {
+    display: flex;
+    justify-content: center;
+    border-spacing: 10px;
+    text-align: center;
+}
+input {
+    width: 350px;
+    height: 49px;
+    border: 2px solid lightgray;
+    background-color: transparent;
+    color: #fff;
+    display: list-item;
+    text-align: center;
+    font-size: 18pt;
+}
+.subscribe-btn input {
+    border: 2px solid lightblue;
+    font: 18px LeagueSpartan-Bold;
+    letter-spacing: 1px;
+    width: 354px;
+    height: 55px;
+}
 
 @font-face {
     font-family: LeagueSpartan-Bold;
