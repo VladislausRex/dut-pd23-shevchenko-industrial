@@ -32,7 +32,6 @@ footer {
     font-family: HKGrotesk-Light;
     text-align: center;
     color: #63757E;
-
 }
 footer a {
     color: #63757E;
@@ -72,7 +71,7 @@ footer a {
     border: 3px solid #EEC9A2;
     padding: 15px 20px 15px 20px;
 }
-.pos {
+.text {
     position: absolute;
     width: 530px;
 }
@@ -116,18 +115,18 @@ footer a {
 .leica {
     text-align: left;
 }
-.leica>.pos {
+.leica>.text {
     margin-left: 2.2%;
 }
-.beoplay>.pos {
+.beoplay>.text {
     margin-right: 2.2%;
 }
-.p9>.pos {
+.p9>.text {
     padding-top: 14%;
     width: 360px;
     text-align: center;
 }
-.container>.pos {
+.container>.text {
     text-align: center;
     padding-top: 3%;
     width: 360px;
@@ -141,15 +140,15 @@ footer a {
     font-size: 18px;
     width: 25%;
 }
-.subscr {
+.subscribe {
     font-family: HKGrotesk-Light;
     color: #63757E;
     text-align: center;
 }
-.subscr h3 {
+.subscribe h3 {
     font-size: 36px;
 }
-.subscr p {
+.subscribe p {
     font-size: 18px;
 }
 

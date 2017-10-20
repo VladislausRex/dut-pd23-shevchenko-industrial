@@ -4,14 +4,6 @@ body {
     margin: 0;
     font-family: LeagueSpartan-Bold;
 }
-ul{
-    list-style-type: disc;/*dont work*/
-    display: inline-table;
-}
-li {
-    display: inline;
-    font-size: 24pt;
-}
 a {
     text-decoration: none;
     color: azure;
@@ -23,24 +15,35 @@ p {
 header,
 .main{
 }
-footer {
-    font-family: HKGrotesk-Light;
-    text-align: center;
-    color: #63757E;
+.search input[type="submit"] {
+    background:url('img/search.png');
+    border: none;
+    width: 23px;
+    height: 23px;
 }
-footer a {
-    color: #63757E;
+.searchtable td{
+    border-bottom: 3px solid #63757E;
 }
+.searchtable {
+    padding-top: 35px;
+    border-collapse: collapse;
+    margin-bottom: 2.5%;
+}
+
+input[type="search"] {
+    background-color: transparent;
+    border: none;
+    height: 25px;
+    width: 180px;
+    color: #63757E;
+    font: 24px HKGrotesk-Light;
+
+}
+
 h1 {
     font-size: 80px;
     margin-bottom: -15px;
 }
-h2{
-    font-size: 48px;}
-h3 {
-    font-size: 36px;
-}
-
 .line {
     display: flex;
     flex-direction: row;
@@ -61,6 +64,8 @@ h3 {
     margin-bottom: 145px;
 }
 
+h2{
+    font-size: 48px;}
 .beoplay {
     background-image: url("img/Beoplay A1.png");
     width: 560px;
@@ -85,6 +90,9 @@ h3 {
     font-size: 18pt;
 }
 
+h3 {
+    font-size: 36px;
+}
 .molekule{
     background-image: url("img/Molekule.png");
     width: 360px;
@@ -159,13 +167,29 @@ h3 {
     padding: 10px 10px 5px 10px;
 }
 
+footer {
+    font-family: HKGrotesk-Light;
+    text-align: center;
+    color: #63757E;
+}
+footer a {
+    color: #63757E;
+}
+ul{
+    list-style-type: disc;/*dont work*/
+    display: inline-table;
+}
+li {
+    display: inline;
+    font-size: 24pt;
+}
 table {
     display: flex;
     justify-content: center;
     border-spacing: 10px;
     text-align: center;
 }
-input {
+.subscribe input {
     width: 350px;
     height: 49px;
     border: 2px solid lightgray;
