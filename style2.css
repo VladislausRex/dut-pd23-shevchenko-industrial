@@ -14,6 +14,16 @@ p {
 }
 header,
 .main{
+    margin-left: 100px;
+}
+
+.searchtable td{
+    border-bottom: 3px solid #63757E;
+}
+.searchtable {
+    border-collapse: collapse;
+    margin: -55px 0 50px 955px;
+    width: 200px;
 }
 .search input[type="submit"] {
     background:url('img/search.png');
@@ -21,15 +31,6 @@ header,
     width: 23px;
     height: 23px;
 }
-.searchtable td{
-    border-bottom: 3px solid #63757E;
-}
-.searchtable {
-    padding-top: 35px;
-    border-collapse: collapse;
-    margin-bottom: 2.5%;
-}
-
 input[type="search"] {
     background-color: transparent;
     border: none;
@@ -51,7 +52,7 @@ h1 {
 }
 .gina {
     background-image: url("img/Gina.png");
-    width: 1160px;
+    min-width: 1160px;
     height: 690px;
 }
 .gina>.text {
@@ -68,7 +69,7 @@ h2{
     font-size: 48px;}
 .beoplay {
     background-image: url("img/Beoplay A1.png");
-    width: 560px;
+    min-width: 560px;
     height: 520px;
 }
 .beoplay>.text {
@@ -77,7 +78,7 @@ h2{
 }
 .leica {
     background-image: url("img/Leica MP.png");
-    width: 560px;
+    min-width: 560px;
     height: 520px;
     margin-left: 40px;
 }
@@ -95,13 +96,13 @@ h3 {
 }
 .molekule{
     background-image: url("img/Molekule.png");
-    width: 360px;
+    min-width: 360px;
     height: 440px;
     margin-right: 40px;
 }
 .p9{
     background-image: url("img/P9 Signature.png");
-    width: 360px;
+    min-width: 360px;
     height: 440px;
 }
 .p9>.text{
@@ -113,7 +114,7 @@ h3 {
 }
 .dr-ii{
     background-image: url("img/DR-II.png");
-    width: 360px;
+    min-width: 360px;
     height: 440px;
     margin-left: 40px;
 }
@@ -143,6 +144,7 @@ h3 {
 }
 .subscribe>p {
     font-size: 18px;
+    letter-spacing: 0px;
 }
 
 .btn {
@@ -180,7 +182,7 @@ ul{
     display: inline-table;
 }
 li {
-    display: inline;
+    /*display: inline;*/
     font-size: 24pt;
 }
 table {
@@ -188,6 +190,7 @@ table {
     justify-content: center;
     border-spacing: 10px;
     text-align: center;
+    margin: 50px 0 100px;
 }
 .subscribe input {
     width: 350px;
@@ -198,6 +201,7 @@ table {
     display: list-item;
     text-align: center;
     font-size: 18pt;
+    border-color: #63757E;
 }
 .subscribe-btn input {
     border: 2px solid lightblue;
