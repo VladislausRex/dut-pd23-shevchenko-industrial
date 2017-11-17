@@ -2,14 +2,14 @@ body {
     color: #fff;
     background-color: #272F45;
     margin: 0;
-    font-family: LeagueSpartan-Bold;
+    font-family: LeagueSpartan-Bold, sans-serif;
 }
 a {
     text-decoration: none;
     color: azure;
 }
 p {
-    font-family: HKGrotesk-Light;
+    font-family: HKGrotesk-Light, sans-serif;
     letter-spacing: 0.5px;
 }
 header.line{
@@ -126,7 +126,7 @@ h3 {
     margin: 0 0 30px 0;
 }
 .subscribe {
-    font-family: HKGrotesk-Light;
+    font-family: HKGrotesk-Light,sans-serif;
     color: #63757E;
     text-align: center;
     margin-top: 160px;
@@ -136,7 +136,7 @@ h3 {
 }
 .subscribe>p {
     font-size: 18px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 .btn {
     border: 3px solid #EEC9A2;
@@ -152,7 +152,7 @@ h3 {
     color:black;
 }
 .gina .btn {
-    font-family: HKGrotesk-Light;
+    font-family: HKGrotesk-Light, sans-serif;
     font-size: 24px;
     border: 3px solid #EEC9A2;
     padding: 15px 20px 15px 20px;
@@ -166,9 +166,8 @@ h3 {
 .dr-ii .btn {
     padding: 10px 10px 5px 10px;
 }
-
 footer {
-    font-family: HKGrotesk-Light;
+    font-family: HKGrotesk-Light,sans-serif;
     text-align: center;
     color: #63757E;
 }
@@ -185,28 +184,26 @@ footer a {
     display: inline-block;
     position: relative;
 }
-
 .nav__elem + .nav__elem::before{
-    background-color:#539127;
+    background-color:#92A1A9;
     border-radius: 50%;
-    width:4px;
-    height:4px;
+    width:5px;
+    height:5px;
     content:"";
     position: absolute;
-    margin-top: 115px;
+    margin-left: -31px;
+    margin-top: 18px;
 }
-
 .subscribe__email {
     width: 350px;
     height: 49px;
-    border: 3px solid lightgray;
+    border: 3px solid #63757E;
     background-color: transparent;
     color: #fff;
     display: block;
     margin: auto;
     text-align: center;
     font-size: 18pt;
-    border-color: #63757E;
 }
 .subscribe__button {
     border: 2px solid lightblue;
@@ -219,7 +216,6 @@ footer a {
     color: white;
 
 }
-
 
 @font-face {
     font-family: LeagueSpartan-Bold;
