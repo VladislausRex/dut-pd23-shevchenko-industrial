@@ -2,16 +2,7 @@ body {
     color: #fff;
     background-color: #272F45;
     margin: 0;
-    padding-top: 0;
-    font-family:LeagueSpartan-Bold;
-    width: 100%;
-}
-ul :nth-of-type(1) {
-    list-style-type: disc;
-}
-li {
-    display: inline;
-    font-size: 24px;
+    font-family: LeagueSpartan-Bold;
 }
 a {
     text-decoration: none;
@@ -19,140 +10,208 @@ a {
 }
 p {
     font-family: HKGrotesk-Light;
+    letter-spacing: 0.5px;
 }
-section {
-}
-img {
-    width: auto;
-}
-header {
-    margin-left: 10%;
-}
-footer {
-    font-family: HKGrotesk-Light;
-    text-align: center;
-    color: #63757E;
-
-}
-footer a {
-    color: #63757E;
-}
-
-.sub-form{
-    display: flex;
-    flex-direction: column;
+header.line{
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+
 }
-.main {
-    width: 80%;
-    margin: 0 auto;
+
+
+/*.searchtable td{
+    border-bottom: 3px solid #63757E;
+}
+.searchtable {
+    border-collapse: collapse;
+    margin: -55px 0 50px 955px;
+    width: 200px;
+} */
+.search input[type="submit"] {
+    background:url('img/search.png');
+    border: none;
+    width: 23px;
+    height: 23px;
+}
+input[type="search"] {
+    background-color: transparent;
+    border: none;
+    height: 25px;
+    width: 180px;
+    color: #63757E;
+    font: 24px HKGrotesk-Light;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: -15px;
 }
 .line {
     display: flex;
-    margin-top: 1%;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 40px;
 }
+.gina {
+    background-image: url("img/Gina.png");
+    min-width: 1160px;
+    height: 690px;
+}
+.gina>.text {
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.gina p {
+    font-size: 24pt;
+    margin-bottom: 145px;
+}
+
+h2{
+    font-size: 48px;}
+.beoplay {
+    background-image: url("img/Beoplay A1.png");
+    min-width: 560px;
+    height: 520px;
+}
+.beoplay>.text {
+    text-align: right;
+    padding-right: 40px;
+}
+.leica {
+    background-image: url("img/Leica MP.png");
+    min-width: 560px;
+    height: 520px;
+    margin-left: 40px;
+}
+.leica>.text{
+    padding-left: 40px;
+}
+.beoplay p,
+.leica p {
+    margin: -25px 0 85px;
+    font-size: 18pt;
+}
+
+h3 {
+    font-size: 36px;
+}
+.molekule{
+    background-image: url("img/Molekule.png");
+    min-width: 360px;
+    height: 440px;
+    margin-right: 40px;
+}
+.p9{
+    background-image: url("img/P9 Signature.png");
+    min-width: 360px;
+    height: 440px;
+}
+.p9>.text{
+    padding-top: 90px;
+    text-align: center;
+}
+.p9 p {
+    margin: 85px 0 80px 0;
+}
+.dr-ii{
+    background-image: url("img/DR-II.png");
+    min-width: 360px;
+    height: 440px;
+    margin-left: 40px;
+}
+.dr-ii>.text,
+.molekule>.text{
+    padding-top: 15%;
+    text-align: center;
+}
+.molekule p,
+.p9 p,
+.dr-ii p {
+    font-size: 16px;
+}
+.molekule h3,
+.dr-ii h3 {
+    margin: 0 0 30px 0;
+}
+
+.subscribe {
+    font-family: HKGrotesk-Light;
+    color: #63757E;
+    text-align: center;
+    margin-top: 160px;
+}
+.subscribe>h3 {
+    font-size: 36px;
+}
+.subscribe>p {
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+
 .btn {
     border: 3px solid #EEC9A2;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 3px;
 }
-.btn.second {
-    padding: 15px 30px 10px 30px;
-}
-.btn.third {
-    padding: 15px 15px 10px 15px;
-}
-.btngina {
+.gina .btn {
     font-family: HKGrotesk-Light;
     font-size: 24px;
     border: 3px solid #EEC9A2;
     padding: 15px 20px 15px 20px;
 }
-.pos {
-    position: absolute;
-    width: 530px;
+.beoplay .btn,
+.leica .btn {
+    padding: 15px 35px 10px 35px;
 }
-.line.first p{
-    padding-left: 10%;
-    font-size: 24px;
-    margin-bottom: 45%;
+.molekule .btn,
+.p9 .btn,
+.dr-ii .btn {
+    padding: 10px 10px 5px 10px;
 }
-.line.first a {
-    margin: 10%;
-}
-.line.second p {
-    font-size: 18px;
-    padding: 0;
-    margin-bottom: 70px;
-}
-.line.third p {
-    font-size: 16px;
-    margin-bottom: -20px;
-}
-.gina h1 {
-    font-size: 80px;
-    padding-left: 10%;
-    padding-top: 0;
-    margin-bottom: -2%;
-}
-.line.second h2 {
-    font-size: 48px;
-    margin-bottom: -10px;
-}
-.line.third h3 {
-    margin-bottom: 40px;
-    font-size: 36px;
-}
-.gina {
-    width: auto;
-}
-.beoplay {
-    text-align: right;
-}
-.leica {
-    text-align: left;
-}
-.leica>.pos {
-    margin-left: 2.2%;
-}
-.beoplay>.pos {
-    margin-right: 2.2%;
-}
-.p9>.pos {
-    padding-top: 14%;
-    width: 360px;
+
+footer {
+    font-family: HKGrotesk-Light;
     text-align: center;
+    color: #63757E;
 }
-.container>.pos {
+footer a {
+    color: #63757E;
+}
+ul{
+    list-style-type: disc;/*dont work*/
+    display: inline-table;
+}
+li {
+    display: inline;
+    font-size: 24pt;
+}
+table {
+    display: flex;
+    justify-content: center;
+    border-spacing: 10px;
     text-align: center;
-    padding-top: 3%;
-    width: 360px;
+    margin: 50px 0 100px;
 }
-.sub-form input {
-    border: 1px solid lightgray;
+.subscribe input {
+    width: 350px;
+    height: 49px;
+    border: 2px solid lightgray;
     background-color: transparent;
     color: #fff;
     display: list-item;
     text-align: center;
-    font-size: 18px;
-    width: 25%;
+    font-size: 18pt;
+    border-color: #63757E;
 }
-.subscr {
-    font-family: HKGrotesk-Light;
-    color: #63757E;
-    text-align: center;
+.subscribe-btn input {
+    border: 2px solid lightblue;
+    font: 18px LeagueSpartan-Bold;
+    letter-spacing: 1px;
+    width: 354px;
+    height: 55px;
+    margin-top: 10px;
 }
-.subscr h3 {
-    font-size: 36px;
-}
-.subscr p {
-    font-size: 18px;
-}
-
 
 @font-face {
     font-family: LeagueSpartan-Bold;
