@@ -8,20 +8,11 @@
 <body>
 <header class="line">
     <div class="logo"><img src="img/logo.png" height="72" width="294"/></div>
-    <!--<div class="search">
-        <form action="#" method="get">
-            <table class="searchtable">
-                <tr>
-                    <td><input type="submit" src="img/search.png" value=""></td>
-                    <td><input type="search" placeholder="Search"></td>
-                </tr>
-            </table>
-        </form>
-    </div> -->
+
     <div class="search">
-        <form action="#" method="get">
-            <input type="submit" src="img/search.png" value="">
-            <input type="search" placeholder="Search">
+        <form action="" method="post">
+            <button class="search__button" type="submit"></button>
+            <input class="search__placholder" type="search" placeholder="Search">
             <hr>
         </form>
     </div>
@@ -55,23 +46,23 @@
     <div class="line">
         <section class="molekule">
             <div class="text">
-            <p>The worlds's first molecular air purifier</p>
-            <h3><b>MOLEKULE</b></h3>
-            <a class="btn third" href="#">DETAILS</a>
+                <p>The worlds's first molecular air purifier</p>
+                <h3><b>MOLEKULE</b></h3>
+                <a class="btn third" href="#">DETAILS</a>
             </div>
         </section>
         <section class="p9">
             <div class="text">
-            <h3><b>P9 SIGNATURE</b></h3>
-            <p>Bowers & Wilkins</p>
-            <a class="btn third" href="#">DETAILS</a>
+                <p>Bowers & Wilkins</p>
+                <h3><b>P9 SIGNATURE</b></h3>
+                <a class="btn third" href="#">DETAILS</a>
             </div>
         </section>
         <section class="dr-ii">
             <div class="text">
-            <p>An homage Dieter Rams</p>
-            <h3><b>DR-II</b></h3>
-            <a class="btn third" href="#">DETAILS</a>
+                <p>An homage Dieter Rams</p>
+                <h3><b>DR-II</b></h3>
+                <a class="btn third" href="#">DETAILS</a>
             </div>
         </section>
     </div>
@@ -79,22 +70,20 @@
 <div class="subscribe">
         <h3>Get our freshest content delivered to your inbox</h3>
         <p>For the lastest stories, news, events, promotions and offers sign up today. We know you get a<br>lot of emails, but we promise... ours is the one you want.</p>
-        <form action="#" method="post">
-                <table>
-                    <tr><td><span  class="email"><input type="text" placeholder="Your email"></span></td></tr>
-                    <tr><td><span class="subscribe-btn"> <input type="submit" value="SUBSCRIBE"></span></td></tr>
-                </table>
+        <form class="subscribe-form" action="#" method="post">
+            <label for="subscribe__button"><input class="subscribe__email" type="text" placeholder="Your email"></label>
+            <button class="subscribe__button" id="subscribe__button">Subscribe</button>
         </form>
     </div>
 
 <footer>
-    <div class="nav">
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Search</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
+    <div>
+        <ul class="nav">
+            <li class="nav__elem"><a href="#">About</a></li>
+            <li class="nav__elem"><a href="#">Search</a></li>
+            <li class="nav__elem"><a href="#">Contact</a></li>
+            <li class="nav__elem"><a href="#">Facebook</a></li>
+            <li class="nav__elem"><a href="#">Twitter</a></li>
         </ul>
     </div>
     <p>&copy; Industrial Design Magazine</p>

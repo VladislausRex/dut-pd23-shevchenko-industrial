@@ -15,25 +15,20 @@ p {
 header.line{
     justify-content: space-between;
     align-items: center;
-
+    max-width: 1160px;
+    margin: auto;
 }
-
-
-/*.searchtable td{
-    border-bottom: 3px solid #63757E;
+.main{
+    width: 1160px;
+    margin:auto;
 }
-.searchtable {
-    border-collapse: collapse;
-    margin: -55px 0 50px 955px;
-    width: 200px;
-} */
-.search input[type="submit"] {
+.search__button{
     background:url('img/search.png');
     border: none;
     width: 23px;
     height: 23px;
 }
-input[type="search"] {
+.search__placholder {
     background-color: transparent;
     border: none;
     height: 25px;
@@ -41,7 +36,6 @@ input[type="search"] {
     color: #63757E;
     font: 24px HKGrotesk-Light;
 }
-
 h1 {
     font-size: 80px;
     margin-bottom: -15px;
@@ -65,7 +59,6 @@ h1 {
     font-size: 24pt;
     margin-bottom: 145px;
 }
-
 h2{
     font-size: 48px;}
 .beoplay {
@@ -91,7 +84,6 @@ h2{
     margin: -25px 0 85px;
     font-size: 18pt;
 }
-
 h3 {
     font-size: 36px;
 }
@@ -133,7 +125,6 @@ h3 {
 .dr-ii h3 {
     margin: 0 0 30px 0;
 }
-
 .subscribe {
     font-family: HKGrotesk-Light;
     color: #63757E;
@@ -147,12 +138,18 @@ h3 {
     font-size: 18px;
     letter-spacing: 0px;
 }
-
 .btn {
     border: 3px solid #EEC9A2;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 3px;
+}
+.btn:hover,
+.subscribe__button:hover,
+.search:hover {
+    -webkit-filter: invert(200%);
+    filter: invert(100%);
+    color:black;
 }
 .gina .btn {
     font-family: HKGrotesk-Light;
@@ -178,40 +175,51 @@ footer {
 footer a {
     color: #63757E;
 }
-ul{
-    list-style-type: disc;/*dont work*/
-    display: inline-table;
+.nav {
+    list-style: none;
 }
-li {
-    display: inline;
-    font-size: 24pt;
+.nav__elem {
+    font-size: 20pt;
+    margin: 0;
+    padding: 30px;
+    display: inline-block;
+    position: relative;
 }
-table {
-    display: flex;
-    justify-content: center;
-    border-spacing: 10px;
-    text-align: center;
-    margin: 50px 0 100px;
+
+.nav__elem + .nav__elem::before{
+    background-color:#539127;
+    border-radius: 50%;
+    width:4px;
+    height:4px;
+    content:"";
+    position: absolute;
+    margin-top: 115px;
 }
-.subscribe input {
+
+.subscribe__email {
     width: 350px;
     height: 49px;
-    border: 2px solid lightgray;
+    border: 3px solid lightgray;
     background-color: transparent;
     color: #fff;
-    display: list-item;
+    display: block;
+    margin: auto;
     text-align: center;
     font-size: 18pt;
     border-color: #63757E;
 }
-.subscribe-btn input {
+.subscribe__button {
     border: 2px solid lightblue;
+    background-color: transparent;
     font: 18px LeagueSpartan-Bold;
-    letter-spacing: 1px;
-    width: 354px;
+    letter-spacing: 2px;
+    width: 356px;
     height: 55px;
     margin-top: 10px;
+    color: white;
+
 }
+
 
 @font-face {
     font-family: LeagueSpartan-Bold;
