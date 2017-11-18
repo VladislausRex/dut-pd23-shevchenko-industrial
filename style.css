@@ -36,30 +36,31 @@ header.line{
     color: #63757E;
     font: 24px HKGrotesk-Light;
 }
-h1 {
-    font-size: 80px;
-    margin-bottom: -15px;
-}
 .line {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 }
-.gina {
+.line h1 {
+    font-size: 80px;
+    margin-bottom: -15px;
+}
+.block_big {
     background-image: url("img/Gina.png");
     min-width: 1160px;
     height: 690px;
 }
-.gina>.text {
+.block_big .text {
     text-align: left;
     padding-left: 60px;
     padding-top: 40px;
 }
-.gina p {
+.block_big p {
     font-size: 24pt;
     margin-bottom: 145px;
 }
-h2{
+
+/*.line h2{
     font-size: 48px;}
 .beoplay {
     background-image: url("img/Beoplay A1.png");
@@ -83,58 +84,80 @@ h2{
 .leica p {
     margin: -25px 0 85px;
     font-size: 18pt;
+}*/
+
+.line h2{
+    font-size: 48px;}
+.block_medium {
+    min-width: 560px;
+    height: 520px;
 }
-h3 {
-    font-size: 36px;
+.block_medium.left {
+    background-image: url("img/Beoplay A1.png");
 }
-.molekule{
-    background-image: url("img/Molekule.png");
-    min-width: 360px;
-    height: 440px;
-    margin-right: 40px;
-}
-.p9{
-    background-image: url("img/P9 Signature.png");
-    min-width: 360px;
-    height: 440px;
-}
-.p9>.text{
-    padding-top: 90px;
-    text-align: center;
-}
-.p9 p {
-    margin: 85px 0 80px 0;
-}
-.dr-ii{
-    background-image: url("img/DR-II.png");
-    min-width: 360px;
-    height: 440px;
+.block_medium.right {
+    background-image: url("img/Leica MP.png");
     margin-left: 40px;
 }
-.dr-ii>.text,
-.molekule>.text{
+.block_medium.left .text {
+    text-align: right;
+    padding-right: 40px;
+}
+.block_medium.right .text{
+    text-align: left;
+    padding-left: 40px;
+}
+.block_medium p {
+    margin: -25px 0 85px;
+    font-size: 18pt;
+}
+
+.line h3 {
+    font-size: 36px;
+}
+.block_small {
+    min-width: 360px;
+    height: 440px;
+}
+.block_small.left{
+    background-image: url("img/Molekule.png");
+    margin-right: 40px;
+}
+.block_small.mid{
+    background-image: url("img/P9 Signature.png");
+}
+.block_small.right{
+    background-image: url("img/DR-II.png");
+    margin-left: 40px;
+}
+.block_small .text{
     padding-top: 15%;
     text-align: center;
 }
-.molekule p,
-.p9 p,
-.dr-ii p {
+.block_small.mid .text{
+    padding-top: 90px;
+    text-align: center;
+}
+.block_small p {
     font-size: 16px;
 }
-.molekule h3,
-.dr-ii h3 {
+.block_small.mid p {
+    margin: 85px 0 80px 0;
+}
+.block_small h3 {
     margin: 0 0 30px 0;
 }
+
 .subscribe {
     font-family: HKGrotesk-Light,sans-serif;
     color: #63757E;
     text-align: center;
     margin-top: 160px;
 }
-.subscribe>h3 {
+.subscribe h3 {
     font-size: 36px;
 }
-.subscribe>p {
+.subscribe p {
     font-size: 18px;
     letter-spacing: 0;
 }
@@ -144,34 +167,30 @@ h3 {
     font-weight: bold;
     letter-spacing: 3px;
 }
-.btn:hover,
-.subscribe__button:hover,
+a:hover,
 .search:hover {
     -webkit-filter: invert(200%);
     filter: invert(100%);
     color:black;
 }
-.gina .btn {
+.block_big .btn {
     font-family: HKGrotesk-Light, sans-serif;
     font-size: 24px;
     border: 3px solid #EEC9A2;
     padding: 15px 20px 15px 20px;
 }
-.beoplay .btn,
-.leica .btn {
-    padding: 15px 35px 10px 35px;
+.block_medium .btn{
+    padding: 10px 35px;
 }
-.molekule .btn,
-.p9 .btn,
-.dr-ii .btn {
-    padding: 10px 10px 5px 10px;
+.block_small .btn {
+    padding: 5px 10px;
 }
 footer {
     font-family: HKGrotesk-Light,sans-serif;
     text-align: center;
     color: #63757E;
 }
-footer a {
+.nav__elem a {
     color: #63757E;
 }
 .nav {
@@ -183,6 +202,7 @@ footer a {
     padding: 30px;
     display: inline-block;
     position: relative;
+
 }
 .nav__elem + .nav__elem::before{
     background-color:#92A1A9;
@@ -218,12 +238,12 @@ footer a {
 }
 
 @font-face {
-    font-family: LeagueSpartan-Bold;
+    font-family: LeagueSpartan-Bold, sans-serif;
     src: local("LeagueSpartan-Bold"),
     url(font/lsb.otf);
 }
 @font-face {
-    font-family: HKGrotesk-Light;
+    font-family: HKGrotesk-Light, sans-serif;
     src: local("HKGrotesk-Light"),
     url(font/hkgl.otf);
 }
