@@ -49,6 +49,7 @@ header.line{
     background-image: url("img/Gina.png");
     min-width: 1160px;
     height: 690px;
+    background-color: gray;
 }
 .block_big .text {
     text-align: left;
@@ -91,6 +92,7 @@ header.line{
 .block_medium {
     min-width: 560px;
     height: 520px;
+    background-color: gray;
 }
 .block_medium.left {
     background-image: url("img/Beoplay A1.png");
@@ -118,6 +120,7 @@ header.line{
 .block_small {
     min-width: 360px;
     height: 440px;
+    background-color: gray;
 }
 .block_small.left{
     background-image: url("img/Molekule.png");
@@ -186,7 +189,7 @@ a:hover,
     padding: 5px 10px;
 }
 footer {
-    font-family: HKGrotesk-Light,sans-serif;
+    font-family: HKGrotesk-Light, sans-serif;
     text-align: center;
     color: #63757E;
 }
