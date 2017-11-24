@@ -159,6 +159,7 @@ a:hover,
     -webkit-filter: invert(200%);
     filter: invert(100%);
     color:black;
+    cursor: pointer;
 }
 
 .product_big .btn {
