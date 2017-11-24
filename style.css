@@ -16,7 +16,7 @@ header.line{
     justify-content: space-between;
     align-items: center;
     max-width: 1160px;
-    margin: auto;
+    margin: 30px auto;
 }
 .main{
     width: 1160px;
@@ -171,11 +171,13 @@ header.line{
     letter-spacing: 3px;
 }
 a:hover,
-.search:hover {
+.search:hover,
+.subscribe__button:hover {
     -webkit-filter: invert(200%);
     filter: invert(100%);
     color:black;
 }
+
 .block_big .btn {
     font-family: HKGrotesk-Light, sans-serif;
     font-size: 24px;
