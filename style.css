@@ -10,13 +10,13 @@ a {
 }
 p {
     font-family: HKGrotesk-Light, sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.7px;
 }
 header.line{
     justify-content: space-between;
     align-items: center;
     max-width: 1160px;
-    margin: 30px auto;
+    margin: 14px auto 47px;
 }
 .main{
     width: 1160px;
@@ -32,9 +32,9 @@ header.line{
     background-color: transparent;
     border: none;
     height: 25px;
-    width: 180px;
+    width: 147px;
     color: #63757E;
-    font: 24px HKGrotesk-Light;
+    font: 26px HKGrotesk-Light;
 }
 .line {
     display: flex;
@@ -43,126 +43,109 @@ header.line{
 }
 .line h1 {
     font-size: 80px;
-    margin-bottom: -15px;
+    margin-top: 70px;
+    margin-bottom: -7px;
 }
-.block_big {
+.product_big {
     background-image: url("img/Gina.png");
     min-width: 1160px;
     height: 690px;
     background-color: gray;
 }
-.block_big .text {
+.product_big .text {
     text-align: left;
     padding-left: 60px;
     padding-top: 40px;
 }
-.block_big p {
+.product_big p {
     font-size: 24pt;
-    margin-bottom: 145px;
+    margin-bottom: 161px;
 }
-
-/*.line h2{
-    font-size: 48px;}
-.beoplay {
-    background-image: url("img/Beoplay A1.png");
-    min-width: 560px;
-    height: 520px;
-}
-.beoplay>.text {
-    text-align: right;
-    padding-right: 40px;
-}
-.leica {
-    background-image: url("img/Leica MP.png");
-    min-width: 560px;
-    height: 520px;
-    margin-left: 40px;
-}
-.leica>.text{
-    padding-left: 40px;
-}
-.beoplay p,
-.leica p {
-    margin: -25px 0 85px;
-    font-size: 18pt;
-}*/
 
 .line h2{
     font-size: 48px;}
-.block_medium {
+.product_medium {
     min-width: 560px;
     height: 520px;
     background-color: gray;
+    /* letter-spacing: 0.4px; */
 }
-.block_medium.left {
+.product_medium.left {
     background-image: url("img/Beoplay A1.png");
 }
-.block_medium.right {
+.product_medium.right {
     background-image: url("img/Leica MP.png");
     margin-left: 40px;
 }
-.block_medium.left .text {
+.product_medium.left .text {
     text-align: right;
-    padding-right: 40px;
+    padding-right: 29px;
+    padding-top: 26px;
 }
-.block_medium.right .text{
+.product_medium.right .text{
     text-align: left;
-    padding-left: 40px;
+    padding-left: 29px;
+    padding-top: 26px;
 }
-.block_medium p {
-    margin: -25px 0 85px;
+.product_medium p {
+    margin: -30px 0 78px;
     font-size: 18pt;
+    letter-spacing: 0.4px;
 }
 
 .line h3 {
     font-size: 36px;
 }
-.block_small {
+.product_small {
     min-width: 360px;
     height: 440px;
     background-color: gray;
 }
-.block_small.left{
+.product_small.left{
     background-image: url("img/Molekule.png");
     margin-right: 40px;
 }
-.block_small.mid{
+.product_small.mid{
     background-image: url("img/P9 Signature.png");
 }
-.block_small.right{
+.product_small.right{
     background-image: url("img/DR-II.png");
     margin-left: 40px;
 }
-.block_small .text{
-    padding-top: 15%;
+.product_small .text{
+    padding-top: 14%;
     text-align: center;
 }
-.block_small.mid .text{
-    padding-top: 90px;
+.product_small.mid .text{
+    padding-top: 109px;
     text-align: center;
 }
-.block_small p {
+.product_small p {
     font-size: 16px;
+    letter-spacing: 0;
 }
-.block_small.mid p {
-    margin: 85px 0 80px 0;
+.product_small.mid p {
+    margin: 154px 0 11px;
 }
-.block_small h3 {
-    margin: 0 0 30px 0;
+.product_small h3 {
+    margin: 0 0 40px 0;
 }
 
 .subscribe {
     font-family: HKGrotesk-Light,sans-serif;
     color: #63757E;
     text-align: center;
-    margin-top: 160px;
+    padding-top: 75px;
 }
 .subscribe h3 {
     font-size: 36px;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px;
 }
 .subscribe p {
     font-size: 18px;
-    letter-spacing: 0;
+    letter-spacing: 0.2px;
+    margin-bottom: 54px;
 }
 .btn {
     border: 3px solid #EEC9A2;
@@ -178,17 +161,20 @@ a:hover,
     color:black;
 }
 
-.block_big .btn {
+.product_big .btn {
     font-family: HKGrotesk-Light, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     border: 3px solid #EEC9A2;
-    padding: 15px 20px 15px 20px;
+    padding: 15px 20px;
+    margin-left: 2px;
 }
-.block_medium .btn{
+.product_medium .btn{
     padding: 10px 35px;
 }
-.block_small .btn {
-    padding: 5px 10px;
+.product_small .btn {
+    padding: 13px 14px 7px;
+    letter-spacing: 1.8px;
+    margin-left: 5px;
 }
 footer {
     font-family: HKGrotesk-Light, sans-serif;
@@ -200,24 +186,25 @@ footer {
 }
 .nav {
     list-style: none;
+    margin: 84px 0 -3px;
+    padding-right: 40px;
 }
 .nav__elem {
-    font-size: 20pt;
+    font-size: 26px;
     margin: 0;
-    padding: 30px;
+    padding: 14px;
     display: inline-block;
     position: relative;
-
 }
 .nav__elem + .nav__elem::before{
     background-color:#92A1A9;
     border-radius: 50%;
-    width:5px;
-    height:5px;
+    width: 6px;
+    height: 6px;
     content:"";
     position: absolute;
-    margin-left: -31px;
-    margin-top: 18px;
+    margin-left: -19px;
+    margin-top: 13px;
 }
 .subscribe__email {
     width: 350px;
@@ -236,19 +223,18 @@ footer {
     font: 18px LeagueSpartan-Bold;
     letter-spacing: 2px;
     width: 356px;
-    height: 55px;
-    margin-top: 10px;
+    height: 60px;
+    margin-top: 22px;
     color: white;
-
 }
 
 @font-face {
-    font-family: LeagueSpartan-Bold, sans-serif;
+    font-family: LeagueSpartan-Bold;
     src: local("LeagueSpartan-Bold"),
     url(font/lsb.otf);
 }
 @font-face {
-    font-family: HKGrotesk-Light, sans-serif;
+    font-family: HKGrotesk-Light;
     src: local("HKGrotesk-Light"),
     url(font/hkgl.otf);
 }
