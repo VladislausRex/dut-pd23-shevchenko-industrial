@@ -10,20 +10,22 @@ a {
 }
 p {
     font-family: HKGrotesk-Light, sans-serif;
+}
+.copyright {
     letter-spacing: 0.7px;
 }
 header.line{
     justify-content: space-between;
     align-items: center;
-    max-width: 1160px;
+    width: 61%;
     margin: 14px auto 47px;
 }
 .main{
-    width: 1160px;
+    max-width: 61%;
     margin:auto;
 }
 .search__button{
-    background:url('img/search.png');
+    background:url('../img/search.png');
     border: none;
     width: 23px;
     height: 23px;
@@ -34,53 +36,60 @@ header.line{
     height: 25px;
     width: 147px;
     color: #63757E;
-    font: 26px HKGrotesk-Light;
+    font: 26px HKGrotesk-Light, sans-serif;
 }
 .line {
+    justify-content: space-between;
     display: flex;
-    justify-content: center;
     margin-bottom: 40px;
 }
 .line h1 {
     font-size: 80px;
-    margin-top: 70px;
-    margin-bottom: -7px;
+    padding-top: 110px;
+    margin: 0;
 }
 .product_big {
-    background-image: url("img/Gina.png");
-    min-width: 1160px;
-    height: 690px;
+    background-image: url("../img/Gina.jpg");
+    background-size: cover;
+    width: 100%;
     background-color: gray;
+    background-position: center;
 }
 .product_big .text {
     text-align: left;
     padding-left: 60px;
-    padding-top: 40px;
+    padding-bottom: 136px;
 }
 .product_big p {
     font-size: 24pt;
-    margin-bottom: 161px;
+    padding-top: 23px;
+    padding-bottom: 162px;
+    letter-spacing: 0.7px;
+    margin: 0;
 }
 
 .line h2{
-    font-size: 48px;}
+    font-size: 48px;
+    margin-bottom: 0;
+}
 .product_medium {
-    min-width: 560px;
-    height: 520px;
+    width: 50%;
     background-color: gray;
-    /* letter-spacing: 0.4px; */
+    background-size: cover;
+    background-position: center;
 }
 .product_medium.left {
-    background-image: url("img/Beoplay A1.png");
+    background-image: url("../img/Beoplay A1.jpg");
 }
 .product_medium.right {
-    background-image: url("img/Leica MP.png");
+    background-image: url("../img/Leica MP.jpg");
     margin-left: 40px;
 }
 .product_medium.left .text {
     text-align: right;
     padding-right: 29px;
     padding-top: 26px;
+    padding-bottom: 238px;
 }
 .product_medium.right .text{
     text-align: left;
@@ -88,28 +97,31 @@ header.line{
     padding-top: 26px;
 }
 .product_medium p {
-    margin: -30px 0 78px;
     font-size: 18pt;
     letter-spacing: 0.4px;
+    margin-top: 0;
+    padding-top: 9px;
+    padding-bottom: 54px;
 }
 
 .line h3 {
     font-size: 36px;
 }
 .product_small {
-    min-width: 360px;
-    height: 440px;
+    width: 33%;
     background-color: gray;
+    background-size: cover;
+    background-position: center;
 }
 .product_small.left{
-    background-image: url("img/Molekule.png");
+    background-image: url("../img/Molekule.jpg");
     margin-right: 40px;
 }
 .product_small.mid{
-    background-image: url("img/P9 Signature.png");
+    background-image: url("../img/P9 Signature.jpg");
 }
 .product_small.right{
-    background-image: url("img/DR-II.png");
+    background-image: url("../img/DR-II.jpg");
     margin-left: 40px;
 }
 .product_small .text{
@@ -119,6 +131,7 @@ header.line{
 .product_small.mid .text{
     padding-top: 109px;
     text-align: center;
+    padding-bottom: 46px;
 }
 .product_small p {
     font-size: 16px;
@@ -219,9 +232,9 @@ footer {
     font-size: 18pt;
 }
 .subscribe__button {
-    border: 2px solid lightblue;
+    border: 2px solid #82C9D8;
     background-color: transparent;
-    font: 18px LeagueSpartan-Bold;
+    font: 18px LeagueSpartan-Bold, sans-serif;
     letter-spacing: 2px;
     width: 356px;
     height: 60px;
@@ -232,12 +245,12 @@ footer {
 @font-face {
     font-family: LeagueSpartan-Bold;
     src: local("LeagueSpartan-Bold"),
-    url(font/lsb.otf);
+    url(../font/lsb.otf);
 }
 @font-face {
     font-family: HKGrotesk-Light;
     src: local("HKGrotesk-Light"),
-    url(font/hkgl.otf);
+    url(../font/hkgl.otf);
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #63757E;
